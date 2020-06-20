@@ -1,0 +1,30 @@
+{
+  "name": "gettext-po-parser",
+  "version": "1.0.0",
+  "description": "Gettext PO file parser",
+  "main": "parser.js",
+  "types": "parser.d.ts",
+  "scripts": {
+    "build": "pegjs parser.pegjs",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhanghai/gettext-po-parser.git"
+  },
+  "keywords": [
+    "i18n",
+    "l10n",
+    "gettext",
+    "po"
+  ],
+  "author": "Hai Zhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhanghai/gettext-po-parser/issues"
+  },
+  "homepage": "https://github.com/zhanghai/gettext-po-parser",
+  "devDependencies": {
+    "pegjs": "^0.10.0"
+  }
+}
